@@ -28,6 +28,19 @@
   .main {
     padding-bottom: 50px;
   }
+  
+  .store {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__title {
+      margin-bottom: 50px;
+    }
+  }
+
+  .body-store__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -55,6 +68,25 @@
 
   .title {
     font-size: 38px;
+  }
+
+  .store {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+  }
+
+  .item__image:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .body-store__items {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 

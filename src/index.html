@@ -4,34 +4,92 @@
 @include('partials/head.html')
 
 <body class="wrapper">
-    @include('partials/header.html')
-    <main class="page">
-      <section class="page__main main">
-        <div class="main__container">
-          <div class="main__content">
-            <h1 class="main__title">Browse top quality <span>Guitars</span> online</h1>
-            <p class="main__text">Explore 50k+ latest collections of branded guitars online with Rhythm.</p>
-            <div class="main__actions actions-main">
-              <a href="#" class="actions-main__button">Get the App</a>
-              <div class="actions-main__icon">
-                <img src="./img/main/google.svg" alt="Google Icon">
-              </div>
-              <div class="actions-main__icon">
-                <img src="./img/main/apple.svg" alt="Apple Icon">
-              </div>
+  @include('partials/header.html')
+  <main class="page">
+    <section class="page__main main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1 class="main__title">Browse top quality <span>Guitars</span> online</h1>
+          <p class="main__text">Explore 50k+ latest collections of branded guitars online with Rhythm.</p>
+          <div class="main__actions actions-main">
+            <a href="#" class="actions-main__button">Get the App</a>
+            <div class="actions-main__icon">
+              <img src="./img/main/google.svg" alt="Google Icon">
             </div>
-          </div>
-          <div class="main__decor">
-            <div class="main__image">
-              <img src="./img/main/main-decor.png" alt="Main Decor">
+            <div class="actions-main__icon">
+              <img src="./img/main/apple.svg" alt="Apple Icon">
             </div>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="main__decor">
+          <div class="main__image">
+            <img src="./img/main/main-decor.png" alt="Main Decor">
+          </div>
+        </div>
+      </div>
+    </section>
 
-    @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
+    <section class="page__store store">
+      <div class="store__container">
+        <h2 class="store__title title">
+          Check out the <span>Store</span>
+        </h2>
+        <div class="store__body body-store">
+          <div class="body-store__header">
+            <div class="body-store__title">NEW ON THE BOARD</div>
+            <a href="#" class="body-store__all">view all</a>
+          </div>
+          <div class="body-store__items">
+            <div class="body-store__item item">
+              <a href="#" class="item__image">
+                <img src="./img/store/01.jpg" alt="Item">
+              </a>
+              <a href="#" class="item__title">The Essential Les Paul</a>
+              <div class="item__price">$1,299.00</div>
+            </div>
+            <div class="body-store__item item">
+              <a href="#" class="item__image">
+                <img src="./img/store/02.jpg" alt="Item">
+              </a>
+              <a href="#" class="item__title">J-45 Standard</a>
+              <div class="item__price">$1,299.00</div>
+            </div>
+            <div class="body-store__item item">
+              <a href="#" class="item__image">
+                <img src="./img/store/03.jpg" alt="Item">
+              </a>
+              <a href="#" class="item__title">The Essential Les Paul</a>
+              <div class="item__price">$1,299.00</div>
+            </div>
+            <div class="body-store__item item">
+              <a href="#" class="item__image">
+                <img src="./img/store/04.jpg" alt="Item">
+              </a>
+              <a href="#" class="item__title">The Essential Les Paul</a>
+              <div class="item__price">$1,299.00</div>
+            </div>
+            <div class="body-store__item item">
+              <a href="#" class="item__image">
+                <img src="./img/store/05.jpg" alt="Item">
+              </a>
+              <a href="#" class="item__title">The Essential Les Paul</a>
+              <div class="item__price">$1,299.00</div>
+            </div>
+            <div class="body-store__item item">
+              <a href="#" class="item__image">
+                <img src="./img/store/06.jpg" alt="Item">
+              </a>
+              <a href="#" class="item__title">The Essential Les Paul</a>
+              <div class="item__price">$1,299.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  @include('partials/footer.html')
+  <!-- @include('html/h1.html') пример include -->
   </div>
 </body>
 
