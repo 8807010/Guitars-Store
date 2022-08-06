@@ -1,11 +1,14 @@
 // базовые подключения
-@import "vars";
-@import "mixins";
+@import "_vars";
+@import "_mixins";
 @import "_fonts";
-@import "settings";
+@import "_settings";
+
 
 // подключения компонентов страницы
 @import "./components/_header";
 
 // подключения sections страницы
 @import "./sections/_main-section";
+
+@import "./_media.scss";
