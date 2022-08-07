@@ -119,6 +119,22 @@
     transform: translate(0px, 0px);
     padding-top: 35px;
   }
+
+  .favorite {
+    padding-bottom: 50px;
+
+    &__container {
+      flex-direction: column;
+    }
+    &__title {
+      font-size: 38px;
+      text-align: center;
+
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -194,6 +210,10 @@
     &__title {
       margin-bottom: 30px;
     }
+  }
+
+  .favorite {
+    padding-bottom: 30px;
   }
 }
 
