@@ -1,0 +1,102 @@
+.footer {
+  background: #eeeeee;
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+  &__copy {
+    padding-top: 80px;
+    text-align: center;
+  }
+}
+
+.body-footer {
+  display: flex;
+  gap: 50px;
+
+  &__column_full {
+    flex: 1 1 auto;
+  }
+
+  &__logo {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-bottom: 28px;
+    }
+  }
+}
+
+.contacts-footer {
+  &__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &__link {
+    color: #666;
+    display: inline-block;
+    line-height: 24px;
+    padding-left: 44px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &_mail {
+      background: url("../img/footer/sms.svg") left no-repeat;
+    }
+
+    &_location {
+      background: url("../img/footer/location.svg") left no-repeat;
+    }
+  }
+}
+
+.menu-footer {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+
+  &__title {
+    text-transform: uppercase;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 20px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  &__link {
+    color: #666;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.social-footer {
+  &__title {
+    text-transform: uppercase;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 12px;
+  }
+
+  &__items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__item {
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

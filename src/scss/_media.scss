@@ -135,6 +135,30 @@
       }
     }
   }
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .body-footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__column:first-child {
+      flex: 1 1 100%;
+    }
+
+    &__column_full {
+      flex: 0 1 50%;
+    }
+  }
+
+  .menu-footer {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -214,6 +238,10 @@
 
   .favorite {
     padding-bottom: 30px;
+  }
+
+  .footer__copy {
+    padding-top: 50px;
   }
 }
 
